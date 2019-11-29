@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "469693488885",
+    "firebase_url": "https://ecart-b1589.firebaseio.com",
+    "project_id": "ecart-b1589",
+    "storage_bucket": "ecart-b1589.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469693488885:android:c198607de667167e",
+        "android_client_info": {
+          "package_name": "com.example.rajga.ecart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469693488885-iq3ei6lbcb0a6o3u7iubp9868lfiga5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGmecb8BQ58UlP2La1tFjTn2K5GrwSEJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469693488885-iq3ei6lbcb0a6o3u7iubp9868lfiga5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

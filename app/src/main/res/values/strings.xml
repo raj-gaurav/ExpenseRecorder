@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Daily Expense Calculator</string>
+
+    <string name="about">
+
+        This is a <b>BarCode Scanner</b> application which tells us the detailed of the scanned item through Google Chrome.
+        You should have <b>Google Chrome</b> to use it. You can search the item on <b>Amazon, Flipkart</b> and <b>Zomato</b> too.If available, it will show the details of that.
+
+
+    </string>
+
+</resources>

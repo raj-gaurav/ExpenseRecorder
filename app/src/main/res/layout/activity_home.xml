@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+
+
+   <!--<include
+        android:layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        />-->
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:titleTextColor="#fff">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+  <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardElevation="10dp"
+                android:elevation="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        >
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="Total Amount"
+                            android:padding="10dp"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            />
+
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        tools:ignore="Suspicious0dp">
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:text="00000"
+                            android:id="@+id/total_amount"
+                            android:padding="10dp"
+                            android:textAppearance="?android:textAppearanceMedium"
+                            />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.RecyclerView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/recycler_home">
+
+
+           </android.support.v7.widget.RecyclerView>
+
+
+
+       </LinearLayout>
+
+
+
+       <android.support.design.widget.FloatingActionButton
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom|end"
+           android:layout_margin="15dp"
+           app:fabSize="normal"
+
+           android:src="@drawable/plus1"
+           android:id="@+id/fab"
+           android:backgroundTint="#FF4D77F7"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>
